@@ -145,7 +145,11 @@ const Home = () => {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Katalog Game <span className="highlight">GAMEGO</span>
+              <img
+                src="../../../public/logo.png"
+                alt=""
+                style={{ height: "400px", width: "auto" }}
+              />
             </h1>
             <p className="hero-subtitle">
               Temukan dan beli game favorit Anda dengan pengalaman terbaik

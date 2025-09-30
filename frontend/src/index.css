@@ -79,14 +79,14 @@ textarea {
 
 /* ===== 2. HOME COMPONENT STYLES ===== */
 .home-container {
-  min-height: 100vh;
+  min-height: 160vh;
   background: #ffffff;
 }
 
 /* Hero Section */
 .hero-section {
   position: relative;
-  padding: 100px 0 60px;
+  padding: 10px 0 20px;
   color: #1f2937;
   overflow: hidden;
   background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
