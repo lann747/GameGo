@@ -47,4 +47,4 @@ Proyek ini terdiri dari **Backend (PHP - MySQL)** dan **Frontend (React + Vite)*
 
 ## ⚡ Catatan
 - Pastikan MySQL & Apache berjalan sebelum membuka frontend.
-- Jika API tidak terbaca, cek `API_BASE_URL` di file frontend (`src/config.js`).
+- Jika API tidak terbaca, cek `API_BASE_URL` di file frontend (`src/api`).
