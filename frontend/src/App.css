@@ -1,0 +1,46 @@
+/* src/index.css */
+
+/* --- 1. Reset & Font --- */
+@import url("[https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap](https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap)");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* --- 2. Layout --- */
+/* Biarkan Bootstrap menangani .container, .min-vh-100, dan grid */
+
+/* --- 3. Utilities --- */
+.hover-shadow {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-shadow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* --- 4. Components --- */
+a.text-info:hover {
+  color: #0d6efd !important;
+}
+
+/* --- 5. Scrollbar --- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #a0aec0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
