@@ -8,7 +8,7 @@ Proyek ini terdiri dari **Backend (PHP - MySQL)** dan **Frontend (React + Vite)*
 ## 📌 Cara Menjalankan
 
 ### 1. Setup Backend (PHP & MySQL)
-1. Pindahkan folder `GameGo` ke dalam direktori **htdocs** (jika pakai XAMPP).
+1. Pindahkan folder `GameGo` (pastikan nama foldernya GameGo) ke dalam direktori **htdocs** (jika pakai XAMPP).
    ```
    C:\xampp\htdocs\GameGo
    ```
